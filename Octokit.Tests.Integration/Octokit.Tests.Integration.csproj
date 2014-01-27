@@ -68,6 +68,7 @@
     <Compile Include="Clients\IssuesEventsClientTests.cs" />
     <Compile Include="Clients\MilestonesClientTests.cs" />
     <Compile Include="Clients\ReferencesClientTests.cs" />
+    <Compile Include="Clients\StatisticsClientTests.cs" />
     <Compile Include="Clients\TreeClientTests.cs" />
     <Compile Include="Clients\FollowersClientTests.cs" />
     <Compile Include="IntegrationTestAttribute.cs" />
