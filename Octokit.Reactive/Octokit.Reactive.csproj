@@ -74,7 +74,6 @@
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
     <Compile Include="Clients\IObservableIssuesLabelsClient.cs" />
-    <Compile Include="Clients\IObservableTeamsClient.cs" />
     <Compile Include="Clients\IObservableWatchedClient.cs" />
     <Compile Include="Clients\IObservableFollowersClient.cs" />
     <Compile Include="Clients\ObservableSearchClient.cs" />
@@ -88,8 +87,8 @@
     <Compile Include="Clients\ObservableReferencesClient.cs" />
     <Compile Include="Clients\ObservableRepoCollaboratorsClient.cs" />
     <Compile Include="Clients\IObservableRepoCollaboratorsClient.cs" />
-    <Compile Include="Clients\ObservableOrganizationTeamsClient.cs" />
-    <Compile Include="Clients\IObservableOrganizationTeamsClient.cs" />
+    <Compile Include="Clients\ObservableTeamsClient.cs" />
+    <Compile Include="Clients\IObservableTeamsClient.cs" />
     <Compile Include="Clients\IObservableCommitsClient.cs" />
     <Compile Include="Clients\IObservableStarredClient.cs" />
     <Compile Include="Clients\ObservableCommitsClient.cs" />
