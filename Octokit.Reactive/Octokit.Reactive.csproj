@@ -73,6 +73,8 @@
     <Compile Include="..\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
+    <Compile Include="Clients\IObservableIssuesLabelsClient.cs" />
+    <Compile Include="Clients\IObservableTeamsClient.cs" />
     <Compile Include="Clients\IObservableWatchedClient.cs" />
     <Compile Include="Clients\IObservableFollowersClient.cs" />
     <Compile Include="Clients\ObservableSearchClient.cs" />
