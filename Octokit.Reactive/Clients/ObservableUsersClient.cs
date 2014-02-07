@@ -15,6 +15,8 @@ namespace Octokit.Reactive
 
             _client = client.User;
             _connection = client.Connection;
+
+            Followers = new ObservableFollowersClient(client);
         }
 
         /// <summary>
@@ -59,5 +61,13 @@ namespace Octokit.Reactive
         {
             return _connection.GetAndFlattenAllPages<EmailAddress>(ApiUrls.Emails());
         }
+
+        /// <summary>
+        /// A client for GitHub's User Followers API
+        /// </summary>
+        /// <remarks>
+        /// See the <a href="http://developer.github.com/v3/users/followers/">Followers API documentation</a> for more information.
+        ///</remarks>
+        public IObservableFollowersClient Followers { get; private set; }
     }
 }
